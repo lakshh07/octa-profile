@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Source+Code+Pro&display=swap");
+
+.chartBoxHeading {
+  display: inline-block;
+  margin: 0px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(209, 213, 218) 50%,
+    rgba(255, 255, 255, 0) 0px
+  );
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 10px 2px;
+  padding-bottom: 6px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.chart-box {
+  background-color: transparent;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  margin: -4.5rem auto 5rem;
+  max-width: 1200px !important;
+}
+
+.box-ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-ul li {
+  display: flex;
+  align-items: center;
+  padding: 0 7px;
+  color: rgb(106, 115, 125);
+  list-style: none;
+  font-size: 13px;
+  font-family: "Raleway";
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.repo-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.repo-box li {
+  list-style: none;
+}
+
+.option {
+  padding: 10px;
+  background-color: blueviolet;
+}
+
+.language {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  margin-right: 0.3rem;
+}
